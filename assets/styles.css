@@ -17,6 +17,10 @@ nav {
     margin-right: 2%;
 }
 
+.navbar-toggler {
+    margin-right: 3%;
+}
+
 .img-fluid {
     border-radius: 20px;
 }
@@ -27,7 +31,7 @@ nav {
 }
 
 .div3 {
-    background-image: linear-gradient(to right, rgb(152, 185, 247), rgb(196, 212, 241));
+    background-image: linear-gradient(to right, rgb(152, 185, 247), rgb(224, 233, 250));
 }
 
 .listaFormacion {
@@ -50,13 +54,9 @@ nav {
     display: none;
 }
 
-.div4 {
-    background-color: yellow;
-}
-
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 1fr;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -65,6 +65,8 @@ nav {
 .imagenHabilidad {
     width: 90%;
     height: 90%;
+    border-radius: 3%;
+    box-shadow: 7px 7px 4px 0px rgba(0,0,0,0.75);
 }
 
 @media screen and (max-width: 992px) {
@@ -94,5 +96,9 @@ nav {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
     }
 }

@@ -7,8 +7,9 @@ nav {
     margin-bottom: 1%;
 }
 
-.navbar-expand-lg {
+.navbar-brand {
     margin-left: 4%;
+    padding-bottom: 0%;
 }
 
 .navbar-collapse {
@@ -47,6 +48,23 @@ nav {
 
 .subdiv2 {
     display: none;
+}
+
+.div4 {
+    background-color: yellow;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.imagenHabilidad {
+    width: 90%;
+    height: 90%;
 }
 
 @media screen and (max-width: 992px) {

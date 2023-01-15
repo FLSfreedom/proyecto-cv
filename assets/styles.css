@@ -5,8 +5,17 @@
 }
 
 @font-face {
+    font-family: 'Kanit';
+    src: url('Kanit-Regular.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'AnonymousPro';
     src: url('AnonymousPro-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Kanit';
 }
 
 nav {
@@ -27,19 +36,24 @@ nav {
     margin-right: 3%;
 }
 
+.div1 {
+    display: flex;
+    align-items: center;
+}
+
 .img-fluid {
     border-radius: 20px;
 }
 
 .div2 {
-    font-family: 'AnonymousPro';
     text-align: center;
     margin-bottom: 1%;
-    font-weight: bold;
 }
 
 .div2 p {
+    font-family: 'AnonymousPro';
     font-style: italic;
+    font-weight: bold;
 }
 
 .div3 {
@@ -79,6 +93,11 @@ nav {
     height: 90%;
     border-radius: 3%;
     box-shadow: 7px 7px 4px 0px rgba(0,0,0,0.75);
+}
+
+.div5 {
+    color: rgb(87, 54, 12);
+    background-image: linear-gradient(to right, rgb(243, 97, 78), rgb(255, 195, 190));
 }
 
 @media screen and (max-width: 992px) {

@@ -84,14 +84,24 @@ nav {
     margin-right: 10px;
     color: black;
     font-size: 25px;
+    color: brown;
+    cursor:pointer;
 }
 
 .listaFormacion {
     list-style-type:"✎";
+    margin-bottom: 0%;
 }
 
 .listaFormacion li {
     margin: 1%;
+    border-radius: 10px;
+}
+
+.listaFormacion li:hover {
+    box-shadow: 7px 7px 4px 0px rgba(0,0,0,0.75);
+    color: brown;
+    cursor:pointer;
 }
 
 .subdiv {
@@ -100,10 +110,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-
-.subdiv2 {
-    display: none;
 }
 
 .grid {
@@ -151,18 +157,9 @@ nav {
     }
 }
 @media screen and (max-width: 768px) {
-    .subsubdiv1 {
-        display: none;
-    }
-    .subsubdiv2 {
-        display: none;
-    }
-    .subdiv2 {
-        font-weight: bold;
-        font-size: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .subdiv {
+        flex-direction: column;
+        align-items: flex-start;
     }
     .grid {
         grid-template-columns: repeat(4, 1fr);

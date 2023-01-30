@@ -12,7 +12,7 @@ function cierreYEliminacion () {
 };
 
 infoCoder.addEventListener('click', (e) => {e.preventDefault();
-    [cierreYEliminacion(), masInformacion.innerHTML += '<h4>Coderhouse</h4><p>Desarrollador Front End React<br>HTML5, CSS3 & Javascript. Bootstrap. React. Sass.<br>Carrera finalizada, certificación obtenida.</p>'];
+    [cierreYEliminacion(), masInformacion.innerHTML += '<h4>Coderhouse</h4><p>Desarrollador Front End React<br>HTML5, CSS3 & Javascript. Bootstrap. React. Sass.<br>Carrera iniciada en junio de 2022. Próximo a finalizar en febrero de 2023 y obtener certificación</p>'];
 });
 infoUCASAL.addEventListener('click', (e) => {e.preventDefault();
     [cierreYEliminacion(), masInformacion.innerHTML += "<h4>Universidad Católica de Salta</h4><p>Abogacía<br>Iniciada en 2019, actualmente cursando el 4to (cuarto) año de carrera.<br>En curso.</p>"];

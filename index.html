@@ -11,7 +11,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <h1 class="navbar-brand">CV Franco Luis Salvadeo</h1>
+        <h1 class="navbar-brand" id="arriba">CV Franco Luis Salvadeo</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,15 +22,15 @@
                 Sobre mí
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Más sobre mí</a>
+                <a class="dropdown-item" href="#seccionMasSobreMi">Más sobre mí</a>
                 <a class="dropdown-item" href="#seccionContacto">Contacto</a> 
               </div>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Formación</a>
+              <a class="nav-link" href="#seccionFormacion">Formación</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experiencia laboral</a>
+              <a class="nav-link" href="#seccionExperienciaLaboral">Experiencia laboral</a>
             </li>
           </ul>
         </div>
@@ -42,7 +42,6 @@
         </div>
         <div class="col-lg-9 div2">
           <h2>Sobre mí</h2>
-          <h3>Franco Luis Salvadeo</h3>
           <h4>Desarrollador Front End - Estudiante de abogacía</h4>
           <p>Me caracterizo por ser una persona comprometida con mi trabajo, analítica, responsable, autónoma, con gran 
             capacidad de adaptación y flexibilidad. Mi formación y experiencia me han dado recursos de empatía, escucha 
@@ -63,7 +62,7 @@
           </p>
         </div>
         <div class="col-lg-12 div3">
-          <h2>Formación</h2>
+          <h2 id="seccionFormacion">Formación</h2>
           <div class="subdiv">
             <div class="subsubdiv1">
               <ul class="listaFormacion">
@@ -99,7 +98,7 @@
           </div>          
         </div>
         <div class="col-lg-12 div4">
-          <h2>Experiencia laboral</h2>
+          <h2 id="seccionExperienciaLaboral">Experiencia laboral</h2>
           <h3>Agencia de seguros “Integrity Group” / “OIG” </h3>
           <h4>Cadete administrativo </h4>
           <p>Tareas de asistencia a estructura administrativa y estructura comercial de la empresa</p>
@@ -118,7 +117,7 @@
             informes a pedido (octubre 2019 - septiembre 2022).</p>
         </div>
         <div class="col-lg-12">
-          <h2>Más sobre mí</h2>
+          <h2 id="seccionMasSobreMi">Más sobre mí</h2>
           <ol class="list-group estiloMasSobreMi">
             <li class="list-group-item d-flex justify-content-between align-items-start">
               <div class="ms-2 me-auto">
@@ -167,7 +166,7 @@
             <li class="list-group-item d-flex justify-content-between align-items-start">
               <div class="ms-2 me-auto">
                 <div class="fw-bold">Habilidades informáticas</div>
-                React Front End Developer certificado y herramientas relacionadas (VSC, Sublime, Git, Github, Bootstrap, 
+                React Front End Developer. Conocimiento de herramientas relacionadas (VSC, Sublime, Git, Github, Bootstrap, 
                  Filezilla, SASS, etc). Lenguajes HTML5, CSS3, Javascript, Ruby. En proceso de obtener mi certificación en SQL. <br>
                 Avanzado en Microsoft Office, software de customer service (ej: CRM, BMC Remedy), Avaya y gestión de RRSS.
                   Adaptabilidad a nuevas herramientas de trabajo virtual y presencial.
@@ -187,7 +186,7 @@
               <p class="pInputEstilo">Nombre<br><input type="text" name="nombre" id="nombre"></p>
               <p class="pInputEstilo">E-mail<br><input type="email" name="email" id="email"></p>
               <p class="pInputEstilo">Asunto<br><input type="text" name="asunto" id="asunto"></p>
-              <textarea name="mensaje" id="mensaje" cols="20" rows="10" placeholder="Escribime tu mensaje acá"></textarea>
+              <textarea name="mensaje" id="mensaje" cols="20" rows="10" placeholder="Escribí tu mensaje acá"></textarea>
               <input type="submit" value="Enviar" class="estiloSubmit">
             </form>
           </div>

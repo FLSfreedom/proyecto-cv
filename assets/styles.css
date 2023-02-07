@@ -16,6 +16,10 @@ body {
 nav {
     margin-bottom: 1%;
 }
+.navbar {
+    width: 100%;
+    position: fixed;
+}
 .navbar-brand {
     margin-left: 4%;
     padding-bottom: 0%;
@@ -36,6 +40,7 @@ nav {
 }
 .div2 {
     text-align: center;
+    margin-top: 6%;
     margin-bottom: 1%;
 }
 .div2 p {
@@ -103,8 +108,14 @@ nav {
     border-radius: 3%;
     box-shadow: 7px 7px 4px 0px rgba(0,0,0,0.75);
 }
+#seccionExperienciaLaboral {
+    height: 0%;
+}
 .estiloMasSobreMi {
     margin-bottom: 1%;
+}
+.list-group-item {
+    position: unset !important;
 }
 .div5 {
     background-image: linear-gradient(to right, rgb(247, 135, 120), rgb(255, 241, 241));
@@ -164,8 +175,12 @@ footer a {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 10%;
         margin-bottom: 1%;
-    }  
+    }
+    .div2 {
+        margin-top: 0%;
+    }
     .div2 p {
         font-size: 19px;
     }  

@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Curriculum virtual interactivo">
+    <meta name="keywords" content="CV, Curriculum Vitae, Curriculum, Resume, experiencia, formación, información">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV FLS</title>
+    <link rel="shortcut icon" href="images/icon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/styles.css">
@@ -12,10 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <h1 class="navbar-brand" id="arriba">CV Franco Luis Salvadeo</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -26,7 +26,7 @@
                 <a class="dropdown-item" href="#seccionContacto">Contacto</a> 
               </div>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="#seccionFormacion">Formación</a>
             </li>
             <li class="nav-item">
@@ -57,12 +57,12 @@
           <p>Actualmente cuento con algunos proyectos personales en el rubro mencionado del desarrollo web, los cuales he 
             emprendido con mucha satisfacción, por poder crear soluciones a desafíos y situaciones mediante la implementación de 
             código y lógica, considerando que esto amplió mi creatividad y capacidad resolutiva. En virtud de esto, estoy en 
-            búsqueda de un empleo, dónde se me brinde la posibilidad de demostrar mi potencial en relación a estas 
+            búsqueda de un empleo, dónde se me <span id="seccionFormacion">brinde</span> la posibilidad de demostrar mi potencial en relación a estas 
             últimas cualidades adquiridas.
           </p>
         </div>
         <div class="col-lg-12 div3">
-          <h2 id="seccionFormacion">Formación</h2>
+          <h2>Formación</h2>
           <div class="subdiv">
             <div class="subsubdiv1">
               <ul class="listaFormacion">
@@ -95,10 +95,11 @@
             <img src="images/img-sass.png" class="imagenHabilidad" alt="Sass">
             <img src="images/img-ruby.png" class="imagenHabilidad" alt="Ruby">
             <img src="images/img-git.png" class="imagenHabilidad" alt="Git">
+            <br><span id="seccionExperienciaLaboral"></span>
           </div>          
         </div>
         <div class="col-lg-12 div4">
-          <h2 id="seccionExperienciaLaboral">Experiencia laboral</h2>
+          <h2>Experiencia laboral</h2>
           <h3>Agencia de seguros “Integrity Group” / “OIG” </h3>
           <h4>Cadete administrativo </h4>
           <p>Tareas de asistencia a estructura administrativa y estructura comercial de la empresa</p>
@@ -112,12 +113,12 @@
           <h4>Back office</h4>
           <p>Tareas de Back office para dos importantes plataformas (billeteras virtuales) de alcance nacional. Generación y 
             seguimiento de incidentes BMC, gestión de reclamos CRM tomados por el sector de operadores telefónicos, 
-            organización y coordinación como parte de equipo de trabajo, redacción y transmisión de resoluciones a los 
+            organización y coordinación como parte de equipo de trabajo, redacción y <span id="seccionMasSobreMi"></span> transmisión de resoluciones a los 
             usuarios de la plataforma, solución ante situaciones generales y particulares, relevamientos y producción de 
             informes a pedido (octubre 2019 - septiembre 2022).</p>
         </div>
         <div class="col-lg-12">
-          <h2 id="seccionMasSobreMi">Más sobre mí</h2>
+          <h2>Más sobre mí</h2>
           <ol class="list-group estiloMasSobreMi">
             <li class="list-group-item d-flex justify-content-between align-items-start">
               <div class="ms-2 me-auto">
@@ -167,15 +168,15 @@
               <div class="ms-2 me-auto">
                 <div class="fw-bold">Habilidades informáticas</div>
                 React Front End Developer. Conocimiento de herramientas relacionadas (VSC, Sublime, Git, Github, Bootstrap, 
-                 Filezilla, SASS, etc). Lenguajes HTML5, CSS3, Javascript, Ruby. En proceso de obtener mi certificación en SQL. <br>
-                Avanzado en Microsoft Office, software de customer service (ej: CRM, BMC Remedy), Avaya y gestión de RRSS.
+                 Filezilla, SASS, etc). Lenguajes HTML5, CSS3, Javascript, Ruby. En proceso de obtener mi <span id="seccionContacto"></span>certificación en SQL. <br>
+                Avanzado en Microsoft Office, software de customer service(ej: CRM, BMC Remedy), Avaya y gestión de RRSS.
                   Adaptabilidad a nuevas herramientas de trabajo virtual y presencial.
               </div>
             </li>
           </ol>
         </div>
         <div class="col-lg-12 div5">
-          <h2 id="seccionContacto">Contacto</h2>
+          <h2>Contacto</h2>
           <div class="divContacto">
             <ul>
               <li><img src="images/iconoW.png" alt=""><img src="images/iconoT.png" alt=""> +54 011 15-41981202</li>
